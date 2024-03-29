@@ -1,0 +1,178 @@
+body {
+    font-family: sans-serif;
+}
+{
+max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+}
+
+
+p {
+   margin-top: 10px;
+   color: #ccc;
+}
+
+
+/* Стилізація підвалу */
+footer {
+   background-color: rgba(0, 174, 153, 1);
+   color: #ccc;
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+
+.footer-content {
+   max-width: 600px;
+   margin: 0 auto;
+}
+
+
+/* Посилання */
+a {
+   color: #4caf50;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+
+a:hover {
+   color: #2e7d32;
+}
+
+
+/* Стилізація заголовка */
+header {
+   background-color: rgba(0, 174, 153, 1);
+   color: #fff;
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+
+h1 {
+   margin: 0;
+}
+
+
+/* Навігаційне меню */
+nav {
+   text-align: center;
+   margin-top: 10px;
+}
+
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+
+nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+
+nav ul li a {
+   color: #4caf50;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+   color: #2e7d32;
+}
+
+
+/* Стилізація розділу про графік */
+#chart-section {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+}
+
+
+#chart-section h2 {
+   margin-top: 0;
+}
+
+
+/* Стилізація графіку */
+#activity-chart {
+   width: 100%;
+   height: auto;
+   display: block;
+}
+
+
+/* Стилізація розділу про наш софт */
+#our-software-section {
+   background-color: #333;
+   color: #fff;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   margin-bottom: 20px;
+}
+
+
+#our-software-section h2 {
+   margin-top: 0;
+}
+
+
+.section-container {
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           padding: 20px;
+           border: 1px solid #ccc;
+           margin-bottom: 20px;
+       }
+.text-content {
+           flex-grow: 1;
+           margin-right: 20px;
+       }
+.button-container {
+           display: flex;
+           gap: 10px;
+           margin-top: 10px;
+       }
+
+
+
+
+.container {
+   background-color: rgba(61, 164, 152, 1);
+   border-radius: 5px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+   padding: 20px;
+   margin-bottom: 20px;
+   width: calc(33.33% - 20px);
+   margin-right: 0px;
+   display: inline-block;
+   text-align: center;
+   box-sizing: border-box;
+}
+{
+.container img {
+   width: 100%;
+   height: auto;
+   border-radius: 5px;
+}
+
+{
+.container p {
+   margin: 10px 0;
+}
+
+
